@@ -1,11 +1,11 @@
-module github.com/wuqinqiang/easycar/client-go
+module github.com/easycar/client-go
 
-go 1.19
+go 1.18
 
 require (
-	github.com/pkg/errors v0.8.1
-	github.com/wuqinqiang/easycar v0.0.0-20220912111108-ed7049c52a04
-	google.golang.org/grpc v1.48.0
+	github.com/pkg/errors v0.9.1
+	github.com/wuqinqiang/easycar v0.0.0-20220914101847-ee4b9710f0ea
+	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 )
 

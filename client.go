@@ -25,7 +25,7 @@ type Client struct {
 	options *options
 }
 
-func NewClient(uri string, fns ...OptFn) *Client {
+func New(uri string, fns ...OptFn) *Client {
 	opt := &options{
 		connTimeOut: 5 * time.Second}
 
